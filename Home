@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="shortcut icon" href="https://drive.google.com/uc?export=view&id=1K----------GeclMI--------------I" sizes="64x64">
+<title>E-L SEM</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+<link rel="stylesheet" href="https://static.tumblr.com/s33cq9b/nkFpa29kl/main.css">
+
+<style type="text/css">
+
+/*hide header using same bg color*/
+#header{
+    background:#9cd4f7;
+}
+
+figure{margin:0}
+.tmblr-iframe{position:absolute}
+.tmblr-iframe.hide{display:none}
+.tmblr-iframe--amp-cta-button{visibility:hidden;position:fixed;bottom:10px;left:50%;transform:translateX(-50%);z-index:100}
+.tmblr-iframe--amp-cta-button.tmblr-iframe--loaded{visibility:visible;animation:iframe-app-cta-transition .2s ease-out}
+
+div.heading{
+    background: #f280c8;
+    height: 125px;
+    text-align: center;
+    position: relative;
+}
+
+/*main header font style*/
+div.heading h2{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #00004d;
+}
+
+h1, h2, h3, h4, h5{
+    color: #00004d;
+    font-family: Merriweather, serif;
+    font-weight: bold;
+}
+
+#head{
+    width: 100%;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer {
+    bottom: 0;
+    height: 240px;
+    padding: 20px;
+}
+
+#footer .copyright{
+    font-size: 15px;
+    color: #9b8884;
+    font-family: Merriweather, serif;
+}
+
+.button-container {
+  margin: auto;
+  display: block;
+  width:95%;
+}
+
+.button {
+    background-color: #ffefe1;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    border-color: #00004d;
+    text-align: left;
+    outline: none;
+}
+
+.button:hover {
+    border-color: #f280c8;
+}
+
+/*button text*/
+.btext { 
+    color: #00004d;
+    font-size: 22px;
+    text-align: center;
+    font-family: Merriweather, serif;
+}
+
+/*blue background*/
+body {
+	background-color: #9cd4f7;
+}
+
+</style>
+
+<!--End of Style Section-->
+</head>
+<body class="is-preload">
+
+<!-- blank header -->
+<header id="header"> </header>
+
+<!-- Heading -->
+<div class="heading">
+<h2>E-Learning Student Engagement Monitoring</h2>
+</div>
+
+<!-- Main -->
+
+<div class="button-container">
+
+  <h3></h3>
+
+  <button class="button">
+    <div class="btext">Head of Department</div>
+  </button>
+
+  <h3></h3>
+
+  <button class="button">
+    <div class="btext">Faculty</div>
+  </button>
+
+  <h3></h3>
+
+  <button class="button">
+    <div class="btext">Student</div>
+  </button>
+
+  <h3></h3>
+
+</div>
+
+<!-- Footer -->
+<footer id="footer" style="background-color: #9cd4f7">
+<div class="copyright">
+  <img src="" alt="our logo lolol" width="100" height="100">
+  <br><br>
+  &copy; Some Senior Senoritas 2021.
+</div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://static.tumblr.com/s33cq9b/ZAMp9yk0k/jquery.min.js"></script>
+<script src="https://static.tumblr.com/s33cq9b/u2gp9yk0o/browser.min.js"></script>
+<script src="https://static.tumblr.com/s33cq9b/Iqpp9yk0s/breakpoints.min.js"></script>
+<script src="https://static.tumblr.com/s33cq9b/mx1p9yjzu/util.js"></script>
+
+<script>
+    
+    (function($) {
+
+var $window = $(window),
+$banner = $('#banner'),
+$body = $('body');
+
+// Breakpoints.
+breakpoints({
+default:   ['1681px',   null       ],
+xlarge:    ['1281px',   '1680px'   ],
+large:     ['981px',    '1280px'   ],
+medium:    ['737px',    '980px'    ],
+small:     ['481px',    '736px'    ],
+xsmall:    ['361px',    '480px'    ],
+xxsmall:   [null,       '360px'    ]
+});
+
+// Play initial animations on page load.
+$window.on('load', function() {
+window.setTimeout(function() {
+$body.removeClass('is-preload');
+}, 100);
+});
+
+// Menu.
+$('#menu')
+.append('<a href="#menu" class="close"></a>')
+.appendTo($body)
+.panel({
+target: $body,
+visibleClass: 'is-menu-visible',
+delay: 500,
+hideOnClick: true,
+hideOnSwipe: true,
+resetScroll: true,
+resetForms: true,
+side: 'right'
+});
+
+})(jQuery);
+
+</script>
+
+ 
+</body>
+</html>
